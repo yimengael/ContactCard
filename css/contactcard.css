@@ -80,7 +80,7 @@
 
 #contentRight {
     width: 485px;
-    height: auto;
+    height: auto ;
     /*border: 1px solid black;*/
 }
 
@@ -89,6 +89,7 @@
     height: 200px;
     margin: 10px 0px 0px 10px;
     background-color: lightgrey;
+    border-radius: 10px;
     /*border: 1px solid black;*/
 }
 
