@@ -8,6 +8,56 @@
         <script type="text/javascript" src="scripts/contactcard.js"></script>
     </head>
     <body>
-
+        <div id="wrapper">
+            <div id="header">
+                <h2>Contact Card Application</h2>
+                <div id="logo">
+                    <img src="images/logoContactCard-revisited.jpg" alt="Logo of application" />
+                </div>
+            </div>
+            <div id="content">
+                <div id="contentLeft">
+                    <form id="userForm" action="" method="post">
+                         First Name: <input id="firstName" type="text" placeholder="First Name" name="first_name"><br>
+                          Last Name: <input id="lastName" type="text" placeholder="Last Name" name="last_name"><br>
+                        <div id="textzone">
+                            Description: <br>
+                            <textarea id="description" name="description" rows="8" cols="40"></textarea><br>
+                        </div>
+                        <div id="formSubmit">
+                            <input type="submit" name="submit" value="Add User">
+                            <input type="button" name="reset" value="Reset Form">
+                        </div>
+                    </form>
+                </div>
+                <div id="contentRight">
+                    <div class="displayInfo">
+                        <h3>Gaël Yimen Yimga</h3>
+                        <div id="linkToDesc">
+                            <a href="#">Click for description!</a>
+                        </div>
+                        <p>Fullstack Software Developer with over 5 years experience</p>
+                    </div>
+                    <div class="displayInfo">
+                        <h3>Gaël Yimen Yimga</h3>
+                        <div id="linkToDesc">
+                            <a href="#">Click for description!</a>
+                        </div>
+                        <p>Fullstack Software Developer with over 5 years experience</p>
+                    </div>
+                    <div class="displayInfo">
+                        <h3>Gaël Yimen Yimga</h3>
+                        <div id="linkToDesc">
+                            <a href="#">Click for description!</a>
+                        </div>
+                        <p>Fullstack Software Developer with over 5 years experience</p>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <p>Contact Card web application. Copyright 2016. All Rights reserved by GYY.
+                </p>
+            </div>
+        </div>
     </body>
 </html>
